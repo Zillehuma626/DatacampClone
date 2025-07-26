@@ -1,6 +1,7 @@
 // components/Footer.jsx
 import React from 'react';
 import { FaFacebookF } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; 
 import logo from '../assets/images/FHA.png';
 import accaLogo from '../assets/images/ACCA.png';
 import xeroLogo from '../assets/images/xero.svg';
@@ -46,11 +47,11 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul className="no-bullets">
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/partners">Partners</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/quoteSection">Quote Section</a></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/partners">Partners</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/quoteSection">Quote Section</Link></li>
           </ul>
         </div>
         <div className="footer-col">
