@@ -182,12 +182,9 @@
       gap: 1rem;
   
     }
-  
     .contact-image-wrapper,
     .contact-form {
-      flex: 1 1 300px;
-      max-width: 45%;
-      padding-top: 20px;
+      display: none;
     }
     .contact-form{
       padding-top: 0px;
