@@ -123,7 +123,11 @@
       margin-left: 2rem;
     }
     .cta-button{
-      margin-left: 2rem;
+      margin-left: 1rem;
+      padding: 10px 10px 10px 10px;
+    }
+    .whatsapp-button{
+      padding: 10px 10px 10px 10px;
+      
     }
   }
-  
