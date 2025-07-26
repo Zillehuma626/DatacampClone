@@ -190,12 +190,6 @@
       padding-top: 0px;
     }
   
-    .contact-image {
-      width: 100%;
-      height: 100;
-      object-fit: cover;
-    }
-  
     .contact-form {
       display: flex;
       flex-direction: column;
@@ -220,4 +214,8 @@
       height: 300px;
     }
   }
-  
+@media (max-width: 480px) {
+  .contact-image-wrapper {
+    display:none;
+  }
+}
