@@ -131,3 +131,12 @@
       
     }
   }
+ @media (max-width: 768px) {
+      .cta-button{
+      margin-left: .25rem;
+      padding: 10px 10px 10px 10px;
+    }
+    .whatsapp-button{
+      padding: 10px 10px 10px 10px;
+      width:50%;
+ }
