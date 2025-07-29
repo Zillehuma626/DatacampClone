@@ -218,4 +218,8 @@
   .contact-image-wrapper {
     display:none;
   }
+  .map-container {
+    width: 300px;
+    height: 300px;
+  }
 }
