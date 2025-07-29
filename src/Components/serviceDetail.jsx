@@ -40,7 +40,6 @@ const ServiceDetail = () => {
 
     {/* Right: Subservices Accordion */}
     <div className="service-accordion-column">
-      <h2>What We Offer</h2>
       <div className="accordion-container">
         {service.subservices.map((sub, index) => (
           <div key={index} className="accordion-item">
