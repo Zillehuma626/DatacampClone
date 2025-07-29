@@ -76,7 +76,7 @@
     }
   
     .why-card {
-      width: 90%;
+      width: 80%;
       max-width: 400px;
       text-align: center;
     }
@@ -89,4 +89,10 @@
       text-align: center;
     }
   }
-  
+ @media (max-width: 768px) {
+  .why-card {
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+    }
+ }
