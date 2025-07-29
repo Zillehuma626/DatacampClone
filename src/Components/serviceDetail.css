@@ -239,18 +239,18 @@
   }
   @media (max-width: 480px) {
     .service-image-column img {
-       display:none;
-    }
-     .service-accordion-column {
+        display:none;
+     }
+    .service-accordion-column {
         max-width: 100%;
         width: 100%;
     }
     .accordion-container {
-     width: 100%;
+         width: 100%;
     }
-    ..service-layout {
-    flex-direction: column; /* Stack vertically */
-  }
+    .service-layout {
+        flex-direction: column; /* Stack vertically */
+    }
    
   }
   
