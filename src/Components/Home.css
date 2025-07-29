@@ -6,7 +6,6 @@
     background-size: cover;
     color: #fff;
     min-height: 30vh;
-
   }
   
   .hero-section {
@@ -16,8 +15,7 @@
     background-color: transparent;
     padding: 2rem;
     margin-left: 50px;
-    margin-bottom: 10rem
-
+    margin-bottom: 10rem;
   }
   
   .hero-section h1 {
@@ -128,10 +126,9 @@
     }
     .whatsapp-button{
       padding: 10px 10px 10px 10px;
-      
     }
   }
- @media (max-width: 768px) {
+ @media (max-width: 480px) {
       .cta-button{
       margin-left: .25rem;
       padding: 10px 10px 10px 10px;
@@ -139,4 +136,5 @@
     .whatsapp-button{
       padding: 10px 10px 10px 10px;
       width:50%;
+    }
  }
