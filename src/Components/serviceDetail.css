@@ -241,6 +241,9 @@
     .service-image-column img {
        display:none;
     }
+    .service-accordion-column {
+       max-width: 80%;
+    }
   }
   
     
