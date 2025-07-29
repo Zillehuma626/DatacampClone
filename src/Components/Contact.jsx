@@ -37,6 +37,7 @@ const Contact = () => {
             src={contactImage}
             alt="Contact Us"
             className="contact-image"
+            loading="lazy"
           />
         </div>
 
