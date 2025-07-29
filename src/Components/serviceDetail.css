@@ -237,6 +237,10 @@
       font-size: 0.85rem;
     }
   }
-  
+  @media (max-width: 480px) {
+    .service-image-column img {
+       display:none;
+    }
+  }
   
     
