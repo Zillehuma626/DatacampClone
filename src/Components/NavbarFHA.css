@@ -154,5 +154,7 @@
     color: #005f5f;
   }
 }
-
+.dropdown > .nav-item {
+  font-weight: 600; /* match main nav items */
+}
 
